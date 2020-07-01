@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+}
+.clr{
+    color: #FF297D;
+    font-weight: 900;
+}
+section{
+    height: 660px;
+}
+.half-side{
+    float: left;
+    width: 40%;
+}
+.half-side img{
+    width: 95%;
+}
+.first-background{
+    padding-top: 7%;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#special-pad{
+    padding-top: 100px;
+    margin-left: 213px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#EC5094,#ED4B73);
+    padding: 13px 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.first-background p, 
+.second-background p{
+    font-size: 15px;
+    color: dimgray;
+    text-align: justify;
+}
+#right-side{
+    margin-top: 16%;
+}
+#special-pad-1{
+    padding: 115px 90px 0px 125px;
+}
+.second-background{
+    height: 880px;
+    background-image: url(images/biography-bg.png);
+    background-size: 100%;
+}
+.second-background p{
+    line-height: 21px;
+    margin-bottom: 45px;
+}
+.center{
+    text-align: center;
+    margin: 6px 0 57px 0;
+}
+.third-background{
+    height: 460px;
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 105px;
+}
+.one-third{
+    float: left;
+    width: 30%;
+    padding: 12px;
+}
+.one-third img{
+    width: 100%;
+}
+.three{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.last-background{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.last-background h2{
+    margin-top: 110px;
+}
+.last-background h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.last-background p{
+    text-align: justify;
+    width: 60%;
+    margin:0 auto;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+.last-button p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.last-button a{
+    text-decoration: none;
+    color: white;
+}
+.last-button{
+    color: white;
+    margin-top: 20px;
+    background-image: linear-gradient(45deg,#EC5094,#ED4B73);
+    padding: 20px 40px 60px 30px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.last-button a{
+    font-size: 22px;
+    font-weight: 600;
+}
+.last{
+    height: 700px;
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+footer{
+    text-align: center;
+}
